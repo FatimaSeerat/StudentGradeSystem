@@ -1,0 +1,2 @@
+I created a Student Grade Manager using HTML, CSS, and JavaScript that allows users to enter student names and marks, then automatically calculates grades and determines pass/fail status based on predefined criteria.
+The application dynamically displays student records in a structured table, supports adding and removing entries. This project helped me strengthen my understanding of JavaScript logic, while also focusing on building user-friendly interface.
