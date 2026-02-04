@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student Grade Manager</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Student Grade Manager</h2>
+        <input type="text" id="studentName" placeholder="Enter name" />
+        <input type="number" id="studentMarks" placeholder="Enter marks" />
+        <div class="btnContainer">
+            <button onclick="addStudent()">Add Student</button>
+        </div>
+
+        <table id="studentTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Marks</th>
+                    <th>Grade</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <div class="average" id="averageDisplay">Average Marks: 0</div>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

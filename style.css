@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  body {
+      font-family: Arial, sans-serif;
+      /* padding: 40px; */
+      background: #f4f6f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100dvh;
+      color: white;
+    }
+
+    h2 {
+      text-align: center;
+      padding-bottom: 20px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: #1A0030;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    input[type="text"], input[type="number"] {
+      padding: 10px;
+      margin: 10px 5px;
+      width: 45%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      outline: none;
+      
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+  
+    .btnContainer{
+        text-align: right;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    table {
+      width: 100%;
+      margin-top: 20px;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 12px;
+      border-bottom: 1px solid #ccc;
+      text-align: center;
+    }
+
+    tr.fail {
+      background-color: #a62e38;
+    }
+
+    .delete-btn {
+      background-color: #e74c3c;
+      padding: 5px 10px;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .average {
+      margin-top: 15px;
+      font-weight: bold;
+      color:white;
+      text-align: center;
+    }
